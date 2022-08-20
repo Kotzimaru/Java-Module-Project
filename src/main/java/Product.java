@@ -14,7 +14,6 @@ public class Product {
     public static String GetRubleAddition(Double value) {
 
         int num = value.intValue();
-
         int preLastDigit = num % 100 / 10;
         if (preLastDigit == 1) {
             return "рублей";
